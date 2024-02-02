@@ -12,6 +12,7 @@ public class Main {
 //        Customer customer = initCustomer();
 //        startShopping();
 //        checkout(customer);
+
     }
 
     private static void checkout(Customer customer) {
