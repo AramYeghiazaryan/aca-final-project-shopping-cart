@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 //        Customer customer = initCustomer();
+        Customer customer=new Customer("gorsargsyan807@gmail.com","098834010");
 //        startShopping();
 //        checkout(customer);
 
