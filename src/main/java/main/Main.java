@@ -17,14 +17,22 @@ public class Main {
 
     private static void checkout(Customer customer) {
         //Prepare order to ship
+
     }
 
-    private static Customer initCustomer() {
-        // create customer
+    public static Customer initCustomer() {
+        Customer id = new Customer();
+        Customer name = new Customer();
+        Customer surname = new Customer();
+        Customer phoneNumber = new Customer();
+        Customer email = new Customer();
+      return id;
     }
 
     public static void startShopping(ShoppingCart cart) {
         //start of order creation
+        Order order = new Order();
+        
     }
 
 

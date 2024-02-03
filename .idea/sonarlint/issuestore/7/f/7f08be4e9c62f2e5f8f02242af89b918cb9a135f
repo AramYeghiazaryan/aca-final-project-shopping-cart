@@ -1,8 +1,28 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(ŠÕ˜—úÿÿÿÿ8ÅÿƒÕÖ1
+]	java:S125"<This block of commented-out lines of code should be removed.(ŠÕ˜—úÿÿÿÿ8™ÀºïÖ1
 Q
-java:S1172"/Remove this unused method parameter "customer".(×‘äîúÿÿÿÿ8ÂçñÔÖ1
+java:S1172"/Remove this unused method parameter "customer".(×‘äîúÿÿÿÿ8œÀºïÖ1
+[
+java:S1854"9Remove this useless assignment to local variable "email".( ˜€¨üÿÿÿÿ8œÀºïÖ1
+\
+java:S1854"?Remove this useless assignment to local variable "phoneNumber".(·îâ“8œÀºïÖ1
+X
+java:S1854";Remove this useless assignment to local variable "surname".( ¼Ø8œÀºïÖ1
+Z
+java:S1854"8Remove this useless assignment to local variable "name".(àİÏŸşÿÿÿÿ8œÀºïÖ1
+K
+java:S1481")Remove this unused "name" local variable.(àİÏŸşÿÿÿÿ8œÀºïÖ1
+I
+java:S1481",Remove this unused "surname" local variable.( ¼Ø8©ÀºïÖ1
+M
+java:S1481"0Remove this unused "phoneNumber" local variable.(·îâ“8©ÀºïÖ1
+L
+java:S1481"*Remove this unused "email" local variable.( ˜€¨üÿÿÿÿ8©ÀºïÖ1
+V
+java:S1854""9Remove this useless assignment to local variable "order".(ÈÃÖ8øßªğÖ1
+G
+java:S1172 "+Remove this unused method parameter "cart".(»¤Ø8øßªğÖ1
+G
+java:S1481""*Remove this unused "order" local variable.(ÈÃÖ8øßªğÖ1
 O
-java:S1144"-Remove this unused private "checkout" method.(×‘äîúÿÿÿÿ8ÈÿƒÕÖ1
-N
-java:S1144"1Remove this unused private "initCustomer" method.(ò İ¿8ÈÿƒÕÖ1
+java:S1144"-Remove this unused private "checkout" method.(×‘äîúÿÿÿÿ8­ÀºïÖ1
