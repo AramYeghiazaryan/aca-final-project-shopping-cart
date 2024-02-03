@@ -1,6 +1,7 @@
 package main;
 
 import shopping.Customer;
+import shopping.Product;
 import shopping.ShoppingCart;
 
 /*
@@ -9,22 +10,33 @@ Implement all necessary classes and methods with corresponding logic, and cover 
 public class Main {
 
     public static void main(String[] args) {
-//        Customer customer = initCustomer();
-//        startShopping();
-//        checkout(customer);
+            Customer customer = initCustomer();
+            ShoppingCart cart = new ShoppingCart();
+            checkout(customer);
+            startShopping(cart);
 
     }
 
     private static void checkout(Customer customer) {
-        //Prepare order to ship
+        System.out.println("Info customer: ");
+        System.out.println(customer.getName());
     }
 
     private static Customer initCustomer() {
-        // create customer
+        return new Customer("Vage", "+79317770", "vage13@mail.ru");
     }
 
     public static void startShopping(ShoppingCart cart) {
-        //start of order creation
+        Product product1 = new Product("Iphone", 1500);
+        Product product2 = new Product("Smart Watch", 340);
+        Product product3 = new Product("PC", 899);
+
+        cart.addProduct(product1);
+        cart.addProduct(product2);
+        cart.addProduct(product3);
+
+        System.out.println("Shopping started:");
+        cart.displayShoppingCart();
     }
 
 
