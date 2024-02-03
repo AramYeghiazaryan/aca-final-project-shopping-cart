@@ -1,5 +1,9 @@
 package shopping;
 
 public class Product {
-  // class for each product
+
+ public class Fruit{
+     public class Vegetables{
+     }
+ }
 }
