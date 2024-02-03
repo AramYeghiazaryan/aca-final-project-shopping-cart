@@ -1,8 +1,23 @@
 package shopping;
 
 public class Customer {
-    // Customer to be able to shop each customer has its shopping Cart
-    // create all necessary fields
-    // make validation for fields phone number, email,
+    private int phoneNumber;
+    private String username;
+    private ShoppingCart shoppingCart;
+
+    public Customer(int phoneNumber, String username) {
+        this.phoneNumber = phoneNumber;
+        this.username = username;
+        ShoppingCart shoppingCart = new ShoppingCart();
+    }
+
+    public int getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
 }
 
